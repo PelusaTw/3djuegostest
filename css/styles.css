@@ -1,0 +1,107 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+body {
+  background: url("../img/inicio_1.png");
+}
+
+#page {
+  text-align: left;
+  background: black;
+}
+
+header{
+	background:url('../img/bg_top.png');
+	height:70px;
+}
+
+header #logo {
+  background: url("../img/3djuegos.png") no-repeat;
+  float: left;
+  padding: 60px 130px;
+}
+
+header #busqueda {
+  float: right;
+  padding: 0px 20px;
+  
+}
+nav {
+  background-image: url("../img/bg_menu.png");
+  color: rgb(69, 69, 180);
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(139, 175, 241);
+}
+main {
+  background: black url("../img/final.jpg") no-repeat top left;
+  min-height: 300px;
+  padding: 15px 60px;
+}
+main article {
+  width: 250px;
+}
+main article p {
+  color: white;
+  text-align: justify;
+}
+main article h2 {
+  color: red;
+  padding-left: 20px;
+}
+main h4 {
+  color: white;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+aside {
+  float: right;
+  width: 40%;
+}
+aside h3 {
+  color: white;
+}
+aside ul {
+  list-style-type: none;
+}
+aside li {
+  color: white;
+  padding-left: 70px;
+  padding-bottom: 25px;
+  height: 40px;
+  text-align: justify;
+}
+aside #news1 {
+  background:  url("../img/foto_1.jpg") no-repeat top left;
+}
+aside #news2 {
+  background: url("../img/foto_2.jpg") no-repeat top left;
+}
+aside #news3 {
+  background: url("../img/foto_3.jpg") no-repeat top left;
+}
+aside #news4 {
+  background: url("../img/foto_4.jpg") no-repeat top left;
+}
+aside #news5 {
+  background: url("../img/foto_5.jpg") no-repeat top left;
+}
+footer {
+  color: white;
+  text-align: center;
+  background: black url("../img/bg_peu.png") no-repeat;
+  height: 100px;
+  padding-top: 50px;
+  clear: both;
+}
+footer .footer {
+  padding-top: 20px;
+  text-align: center;
+}
+footer .footer a {
+  text-decoration: none;
+}
