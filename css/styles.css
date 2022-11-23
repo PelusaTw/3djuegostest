@@ -10,6 +10,7 @@ body {
 #page {
   text-align: left;
   background: black;
+  
 }
 
 header{
@@ -71,12 +72,13 @@ aside ul {
 aside li {
   color: white;
   padding-left: 70px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   height: 40px;
   text-align: justify;
+
 }
 aside #news1 {
-  background:  url("../img/foto_1.jpg") no-repeat top left;
+  background:  url(../img/foto_1.jpg) no-repeat;
 }
 aside #news2 {
   background: url("../img/foto_2.jpg") no-repeat top left;
